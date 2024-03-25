@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Chat-GPT-PHP
+  version: 1.0.0
+  description: Descrição da sua API
+  termsOfService: https://example.com/terms/
+  contact:
+    email: example@example.com
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+paths:
+  /api/users:
+    get:
+      summary: Get all users
+      description: Retrieve a list of all users
+      responses:
+        '200':
+          description: Successful operation
